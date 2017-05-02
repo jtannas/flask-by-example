@@ -1,0 +1,11 @@
+flask                       # web micro-framework
+gunicorn                    # web server gateway interface (WSGI)
+mypy                        # python static type checker
+
+# Dev Tools; Not needed for distribution
+autoenv                     # runs commands when cd-ing into a folder
+pytest                      # code tester
+yapf                        # code formatter
+sphinx                      # documentation generator
+sphinx_rtd_theme            # sphinx ReadTheDocs theme
+tox                         # tool for checking python packages in different versions of python

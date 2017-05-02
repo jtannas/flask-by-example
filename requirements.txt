@@ -1,9 +1,9 @@
 flask                       # web micro-framework
 gunicorn                    # web server gateway interface (WSGI)
 mypy                        # python static type checker
+autoenv                     # runs commands when cd-ing into a folder
 
 # Dev Tools; Not needed for distribution
-autoenv                     # runs commands when cd-ing into a folder
 pytest                      # code tester
 yapf                        # code formatter
 sphinx                      # documentation generator

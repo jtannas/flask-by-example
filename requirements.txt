@@ -1,7 +1,10 @@
+autoenv                     # runs commands when cd-ing into a folder
 flask                       # web micro-framework
+flask-sqlalchemy            # SQLAlchemy for Flask
+flask-migrate               # Flask SQLAlchemy database migrations using Alembic
 gunicorn                    # web server gateway interface (WSGI)
 mypy                        # python static type checker
-autoenv                     # runs commands when cd-ing into a folder
+psycopg2                    # a python adapter for Postgres
 
 # Dev Tools; Not needed for distribution
 pytest                      # code tester

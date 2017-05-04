@@ -1,10 +1,13 @@
 autoenv                     # runs commands when cd-ing into a folder
+beautifulsoup4              # for scraping and parsing web documents
 flask                       # web micro-framework
 flask-sqlalchemy            # SQLAlchemy for Flask
 flask-migrate               # Flask SQLAlchemy database migrations using Alembic
 gunicorn                    # web server gateway interface (WSGI)
 mypy                        # python static type checker
+nltk                        # Natural language processing toolkit
 psycopg2                    # a python adapter for Postgres
+requests                    # for sending http requests
 
 # Dev Tools; Not needed for distribution
 pytest                      # code tester

@@ -7,7 +7,9 @@ gunicorn                    # web server gateway interface (WSGI)
 mypy                        # python static type checker
 nltk                        # Natural language processing toolkit
 psycopg2                    # a python adapter for Postgres
+redis                       # python interface to Redis
 requests                    # for sending http requests
+rq                          # Redis Queue; library for queuing jobs
 
 # Dev Tools; Not needed for distribution
 pytest                      # code tester

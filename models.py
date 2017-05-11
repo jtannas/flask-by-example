@@ -1,15 +1,14 @@
 """
-ORM object models & SQLAlchemy instantiation.
+ORM object models.
 """
 
 ### IMPORTS ###################################################################
-from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.dialects.postgresql import JSON
 
+from app import db
+
+
 ### MODELS ####################################################################
-db = SQLAlchemy()
-
-
 class Result(db.Model):
     __tablename__ = 'results'
 
